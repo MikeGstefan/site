@@ -139,10 +139,10 @@ const { Content } = await entry.render();
 
 	.back-link,
 	.content :global(a) {
-		text-decoration: 1px solid underline;
+		text-decoration: 1px solid underline transparent;
 		text-underline-offset: 0.25em;
 
-		color: #0070f3;
+		color: var(--link-color);
 	
 		transition: text-decoration-color var(--theme-transition);
 	}
