@@ -89,9 +89,11 @@ const { Content } = await entry.render();
 	}
 
 	.content {
-		max-width: 65ch;
+		max-width: 90ch;
 		margin-inline: auto;
 		color: var(--gray-700);
+		margin-left: auto;
+  		margin-right: auto;
 	}
 
 	.content > :global(* + *) {
@@ -104,27 +106,36 @@ const { Content } = await entry.render();
 
 	.content :global(h1){
 		color: var(--gray-900);
+		text-align:center;
 	}
 	.content :global(h2){
 		color: var(--gray-900);
+		text-align:center;
 	}
 	.content :global(h3){
 		color: var(--gray-900);
+		text-align:center;
 	}
 	.content :global(h4){
 		color: var(--gray-900);
+		text-align:center;
 	}
 	.content :global(h5) {
 		margin: 1.5rem 0;
 		color: var(--gray-900);
+		text-align:center;
 	}
 
 
 	.content :global(img) {
+		display:block;
+  		margin:auto;
+		text-align:center;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-sm);
 		background: var(--gradient-subtle);
 		border: 1px solid var(--gray-800);
+		
 	}
 
 	.content :global(blockquote) {
@@ -135,6 +146,7 @@ const { Content } = await entry.render();
 		padding-inline-start: 1.5rem;
 		border-inline-start: 0.25rem solid var(--accent-dark);
 		color: var(--gray-0);
+		
 	}
 
 	.back-link,
