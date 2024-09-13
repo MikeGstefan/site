@@ -1,7 +1,7 @@
 ---
 title: PCB design
 publishDate: 2020-03-02 00:00:00
-img: /assets/carrier-front.jpg
+img: /site/assets/carrier-front.jpg
 img_alt: The Front of a custom pcb
 description: |
   Full cycle development of a custom PCB and firmware
@@ -20,7 +20,7 @@ This project was designed to allow for the use of a single board computer (or Co
 I also developed the complete firmware for this board, found open 
 source on my gitlab: [here](https://gitlab.com/qvex/coprocessor-interface-firmware). This firmware is written in 100% Rust using the RTIC concurrency framework. 
 
-![Back of board](/assets/carrier-back.jpg)
+![Back of board](/site/assets/carrier-back.jpg)
 
-![Screenshot of the layout editor](/assets/carrier-layout.png)
-![Screenshot of a render of the board](/assets/carrier-render.png)
+![Screenshot of the layout editor](/site/assets/carrier-layout.png)
+![Screenshot of a render of the board](/site/assets/carrier-render.png)
