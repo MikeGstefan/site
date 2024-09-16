@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 // export default defineConfig({});
 export default defineConfig({
-    site: 'https://mikegstefan.github.io',
+    site: 'https://mikegstefan.ca',
     base: 'site',
     output: "static",
   })
